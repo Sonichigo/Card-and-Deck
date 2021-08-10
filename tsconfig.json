@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outFile": "./js/app.js",
+        "target": "es6",
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "sourceMap": true,
+        "moduleResolution" : "node" 
+    },
+    "include": [
+        "./ts/lib/**.ts",
+        "./ts/**.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
